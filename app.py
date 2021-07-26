@@ -18,11 +18,11 @@ with st.spinner('Model is being loaded..'):
   model=load_model()
 
 st.write("""
-         # Covid Classification
+         # Covid X-ray Classification
          """
          )
 
-file = st.file_uploader("Please upload an x-ray scan file", type=["jpg", "png"])
+file = st.file_uploader("Please upload only an x-ray scan file", type=["jpg", "png"])
 #import cv2
 from PIL import Image, ImageOps
 import numpy as np
