@@ -2,4 +2,4 @@ streamlit==0.85.0
 pillow==8.3.1
 tensorflow==2.5.0
 numpy== 1.19.5
-opencv==4.5.2
+
